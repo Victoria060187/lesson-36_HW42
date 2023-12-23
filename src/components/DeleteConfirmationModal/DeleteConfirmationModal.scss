@@ -1,0 +1,32 @@
+.delete-confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+  
+.delete-confirmation-modal p {
+    margin-bottom: 20px;
+}
+  
+.delete-confirmation-modal button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  
+.delete-confirmation-modal button:first-child {
+    background-color: #e74c3c;
+    color: white;
+}
+  
+.delete-confirmation-modal button:last-child {
+    background-color: #3498db;
+    color: white;
+}
